@@ -137,10 +137,141 @@ span {
 .btn__header {
     width: 343px;
     height: 45px;
-    background-color:yellow;
-    border-radius: 30px
+    border: 1px solid yellow;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+.btn__header:hover {
+    background-color: yellow;
 }
 
 header {
     margin-bottom: 40px;
+}
+
+/*///////////main//////////*/
+
+.main__prace {
+    font-size: 16px;
+    line-height: 20.8px;
+    color:#B72025;
+}
+
+.main__switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.switch__left .switch__right {
+    line-height: 20.8px;
+    font-size: 16px;
+}
+
+.main__center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 138px;
+    background-color:#F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 20px 5px 20px 5px;
+    border-radius: 10px;
+    margin: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.item__img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.item__txt {
+   font-size: 10px;
+   line-height: 13px;
+   text-align: center;
+   color: black;
+   margin-bottom: 5px;
+}
+
+.item__price {
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #D62D30;
+    margin-bottom: 5px;
+}
+
+.button__calc {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.minus, .plus {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    margin-left: 7px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.plus:hover {
+    background-color: yellow;
+}
+
+.minus:hover {
+    background-color: yellow;
+}
+
+.numb {
+    font-size: 15px;
+    color: black;
+}
+
+/*//////////////*/
+
+.footer__txt {
+    width: 210px;
+    font-size: 12px;
+    line-height: 15.6px;
+    color:#A5A2A2;
+    margin-bottom: 10px;
+}
+
+.footer__down {
+    display: flex;
+    flex-direction: row;
+}
+
+.img__cursor {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.cursorpng {
+    padding: 10px;
+}
+
+.txt__messege {
+    padding: 20px;
+    background-color: #F5F5F5;
+    font-size: 14px;
+    line-height: 18.2px;
+    color:#A5A2A2;
 }
